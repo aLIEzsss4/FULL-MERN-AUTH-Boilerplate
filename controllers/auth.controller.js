@@ -329,6 +329,7 @@ exports.resetPasswordController = (req, res) => {
 const client = new OAuth2Client(process.env.GOOGLE_CLIENT);
 // Google Login
 exports.googleController = (req, res) => {
+  console.log(req.body, 'req')
   const { idToken } = req.body;
 
   client

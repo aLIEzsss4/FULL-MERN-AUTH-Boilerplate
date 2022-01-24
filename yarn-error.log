@@ -1,0 +1,52 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/bin/yarn
+
+PATH: 
+  ./node_modules/.bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:./node_modules/.bin
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  16.11.1
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: ENOENT: no such file or directory, copyfile '/Users/pengweicheng/Library/Caches/Yarn/v6/npm-ms-2.1.2-d09d1f357b443f493382a8eb3ccd183872ae6009-integrity/node_modules/ms/index.js' -> '/Users/pengweicheng/Desktop/moralis/auth-node/node_modules/agent-base/node_modules/ms/index.js'
+
+npm manifest: 
+  {
+    "name": "auth_server",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "start": "NODE_ENV=development node server",
+      "dev": "nodemon server"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "@sendgrid/mail": "^6.5.5",
+      "body-parser": "^1.19.0",
+      "cors": "^2.8.5",
+      "dotenv": "^8.2.0",
+      "express": "^4.17.1",
+      "express-jwt": "^5.3.1",
+      "express-validator": "^6.4.0",
+      "google-auth-library": "^7.11.0",
+      "jsonwebtoken": "^8.5.1",
+      "mongoose": "^5.9.6",
+      "morgan": "^1.10.0",
+      "node-fetch": "^2.6.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

@@ -19,6 +19,9 @@ const Login = ({ history }) => {
   };
 
   const sendGoogleToken = tokenId => {
+    console.log(1233213
+      )
+    
     axios
       .post(`${process.env.REACT_APP_API_URL}/googlelogin`, {
         idToken: tokenId
@@ -113,6 +116,7 @@ const Login = ({ history }) => {
             </h1>
             <div className='w-full flex-1 mt-8 text-indigo-500'>
               <div className='flex flex-col items-center'>
+                {/* <div className="g-signin2" data-onsuccess="onSignIn">google</div> */}
                 <GoogleLogin
                   clientId={`${process.env.REACT_APP_GOOGLE_CLIENT}`}
                   onSuccess={responseGoogle}
