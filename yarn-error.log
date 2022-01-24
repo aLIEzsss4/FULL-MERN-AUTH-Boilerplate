@@ -14,7 +14,7 @@ Platform:
   darwin x64
 
 Trace: 
-  Error: ENOENT: no such file or directory, copyfile '/Users/pengweicheng/Library/Caches/Yarn/v6/npm-ms-2.1.2-d09d1f357b443f493382a8eb3ccd183872ae6009-integrity/node_modules/ms/index.js' -> '/Users/pengweicheng/Desktop/moralis/auth-node/node_modules/agent-base/node_modules/ms/index.js'
+  Error: ENOENT: no such file or directory, copyfile '/Users/pengweicheng/Library/Caches/Yarn/v6/npm-jwa-1.4.1-743c32985cb9e98655530d53641b66c8645b039a-integrity/node_modules/jwa/README.md' -> '/Users/pengweicheng/Desktop/moralis/auth-node/node_modules/jsonwebtoken/node_modules/jwa/README.md'
 
 npm manifest: 
   {
